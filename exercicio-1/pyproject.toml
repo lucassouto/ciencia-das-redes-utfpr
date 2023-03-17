@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "exercicio-1"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Souto <lucassouto@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "exercicio_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+networkx = "^3.0"
+matplotlib = "^3.7.1"
+ipython = "^8.11.0"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
